@@ -4,4 +4,4 @@
 Refer ```train_filter.py```
 
 ## Object Detectetion
-Refer ```detection directory```
+Refer ```detection``` directory
