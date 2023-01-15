@@ -1,0 +1,7 @@
+train: ../../yolov5/detection/yolo_data/images/train
+val: ../../yolov5/detection/yolo_data/images/validation
+nc: 2
+names: ["abw","pbw"]
+
+# python train.py --img 1536 --batch 16 --epoch 150  --workers 40 --project runs/pretrained --cache --name bw_win_1536_150 --hyp runs/pretrained/bw_win_hyp2/hyp_evolve.yaml --data ../../configs/yolo.yaml --cfg models/yolov5m.yaml --weights yolov5m.pt
+# 

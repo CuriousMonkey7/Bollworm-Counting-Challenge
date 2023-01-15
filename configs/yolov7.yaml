@@ -1,0 +1,7 @@
+train: yolo_data/images/train
+val: yolo_data/images/validation
+nc: 2
+names: ["abw","pbw"]
+
+# python train.py --img 512 --batch 32 --epoch 150  --workers 40 --project runs/pretrained --cache --name v7_bw_win_512_150 --data ../../configs/yolov7.yaml --weights yolov7.pt --cfg cfg/training/yolov7.yaml 
+
